@@ -1315,8 +1315,6 @@ a:hover .nav-title,
 
 .navigation-top {
 	background: #fff;
-	border-bottom: 1px solid #eee;
-	border-top: 1px solid #eee;
 	font-size: 16px;
 	font-size: 1rem;
 	position: relative;
@@ -1328,7 +1326,7 @@ a:hover .nav-title,
 }
 
 .navigation-top a {
-	color: #222;
+	color: #fff;
 	font-weight: 600;
 	-webkit-transition: color 0.2s;
 	transition: color 0.2s;
@@ -1351,6 +1349,7 @@ a:hover .nav-title,
 	padding: 0 1.5em;
 	text-align: left;
 }
+
 
 /* Hide the menu on small screens when JavaScript is available.
  * It only works with JavaScript.
@@ -1552,7 +1551,6 @@ body {
 }
 
 .site-header {
-	background-color: #fafafa;
 	position: relative;
 }
 
@@ -2088,7 +2086,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .archive.page-one-column:not(.has-sidebar) #primary {
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 740px;
+	/* max-width: 740px; */
 }
 
 .single-featured-image-header {
@@ -3205,6 +3203,14 @@ p > object:only-child {
 	width: auto;
 }
 
+/* Custom Style */
+div#page {
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 0 9px 1px #f1f1f1;
+}
+
+
 /*--------------------------------------------------------------
 19.0 Media Queries
 --------------------------------------------------------------*/
@@ -3369,20 +3375,20 @@ p > object:only-child {
 	/* Layout */
 
 	.wrap {
-		max-width: 1000px;
-		padding-left: 3em;
-		padding-right: 3em;
+		max-width: 1200px;
+		padding-left: 15px;
+		padding-right: 15px;
 	}
 
 	.has-sidebar:not(.error404) #primary {
 		float: left;
-		width: 58%;
+		width: 72%;
 	}
 
 	.has-sidebar #secondary {
 		float: right;
 		padding-top: 0;
-		width: 36%;
+		width: 25%;
 	}
 
 	.error404 #primary {
@@ -3478,9 +3484,9 @@ p > object:only-child {
 	}
 
 	.navigation-top .wrap {
-		max-width: 1000px;
+		max-width: 1200px;
 		/* The font size is 14px here and we need 50px padding in ems */
-		padding: 0.75em 3.4166666666667em;
+		padding: 0.75em 15px;
 	}
 
 	.navigation-top nav {
@@ -3799,7 +3805,7 @@ p > object:only-child {
 	/* Posts */
 
 	.site-content {
-		padding: 5.5em 0 0;
+		padding: 60px 0 0;
 	}
 
 	.single-post .entry-title,
@@ -3854,7 +3860,7 @@ p > object:only-child {
 	body.page-two-column:not(.archive) #primary .entry-content,
 	body.page-two-column #comments {
 		float: right;
-		width: 58%;
+		width: 100%;
 	}
 
 	.blog .site-main > article,
@@ -4093,11 +4099,12 @@ p > object:only-child {
 
 	/* Navigation */
 	.navigation-top .wrap {
-		padding: 0.75em 2em;
+		padding: 0 15px;
 	}
 
 	.navigation-top nav {
 		margin-left: 0;
+		background: #000;
 	}
 
 	/* Sticky posts */
