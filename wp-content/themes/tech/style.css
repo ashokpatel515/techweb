@@ -3399,6 +3399,26 @@ footer .ul_links ul {
 .entry-content a.more-link:hover{
 	background: #15adfc;
 }
+.left-logo-area {
+    float: left;
+}
+.banr-adv {
+    float: right;
+    background: #f2f2f2;
+    height: 100px;
+    width: 62%;
+}
+.adv-text h4 {
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    margin-bottom: 0;
+    color: #e4e2e2;
+}
+.banr-adv li {
+    list-style: none;
+    padding-bottom: 0;
+}
 
 /*--------------------------------------------------------------
 19.0 Media Queries
@@ -3728,6 +3748,7 @@ footer .ul_links ul {
 		border-right: 1px solid #253740;
 		display: inline-block;
 		border-bottom: 0;
+		float:left;
 	}
 
 	.main-navigation li li {
@@ -3836,7 +3857,7 @@ footer .ul_links ul {
 
 	.main-navigation ul li:hover > ul,
 	.main-navigation ul li.focus > ul {
-		left: -5px;
+		left: 0px;
 		right: auto;
 	}
 
