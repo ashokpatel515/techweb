@@ -15,7 +15,7 @@
 		the_privacy_policy_link( '', '<span role="separator" aria-hidden="true"></span>' );
 	}
 	?>
-	<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentyseventeen' ) ); ?>" class="imprint">
-		<?php printf( __( 'Proudly powered by %s', 'twentyseventeen' ), 'WordPress' ); ?>
+	© 2018 designed & developed by | <a href="<?php echo esc_url( __( 'https://marvelwebtech.com/', 'twentyseventeen' ) ); ?>" class="imprint">
+		<?php printf( __( 'Marvel Webtech' ), 'Marvel Webtech' ); ?>
 	</a>
 </div><!-- .site-info -->

@@ -317,8 +317,8 @@ function twentyseventeen_widgets_init() {
 		'description'   => __( 'Add widgets here to appear in your sidebar on blog posts and archive pages.', 'twentyseventeen' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
+		'before_title'  => '<h2 class="widget-title"><span>',
+		'after_title'   => '</span></h2>',
 	) );
 
 	register_sidebar( array(
@@ -339,6 +339,42 @@ function twentyseventeen_widgets_init() {
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
+	) );
+	
+	register_sidebar( array(
+		'name'          => __( 'Top Menu', 'twentyseventeen' ),
+		'id'            => 'top-menu',
+		'description'   => __( 'Add widgets here to appear in your footer.', 'twentyseventeen' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+	
+	register_sidebar( array(
+		'name'          => __( 'Top Social Media', 'twentyseventeen' ),
+		'id'            => 'top-social-media',
+		'description'   => __( 'Add widgets here to appear in your footer.', 'twentyseventeen' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+	) );
+	
+	register_sidebar( array(
+		'name'          => __( 'Footer Social Media', 'twentyseventeen' ),
+		'id'            => 'footer-social-media',
+		'description'   => __( 'Add widgets here to appear in your footer.', 'twentyseventeen' ),
+		'before_widget' => '<section id="%1$s" class="widget social-block %2$s">',
+		'after_widget'  => '</section>',
+		
+	) );
+	
+	register_sidebar( array(
+		'name'          => __( 'Bottom Footer Links', 'twentyseventeen' ),
+		'id'            => 'bottom-footer-link',
+		'description'   => __( 'Add widgets here to appear in your footer.', 'twentyseventeen' ),
+		'before_widget' => '<section id="%1$s" class="widget bottom-footer-links %2$s">',
+		'after_widget'  => '</section>',
+		
 	) );
 }
 add_action( 'widgets_init', 'twentyseventeen_widgets_init' );

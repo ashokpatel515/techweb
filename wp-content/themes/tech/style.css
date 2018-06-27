@@ -51,8 +51,49 @@ Use it to make something cool, have fun, and share what you've learned with othe
 Styles based on Normalize v5.0.0 @link https://github.com/necolas/normalize.css
 --------------------------------------------------------------*/
 
+@font-face {
+    font-family: 'robotoregular';
+    src: url('fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotoblack';
+    src: url('fonts/roboto-black-webfont.woff2') format('woff2'),
+         url('fonts/roboto-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotobold';
+    src: url('fonts/roboto-bold-webfont.woff2') format('woff2'),
+         url('fonts/roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotolight';
+    src: url('fonts/roboto-light-webfont.woff2') format('woff2'),
+         url('fonts/roboto-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotomedium';
+    src: url('fonts/roboto-medium-webfont.woff2') format('woff2'),
+         url('fonts/roboto-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html {
-	font-family: sans-serif;
+	font-family: 'robotoregular';
 	line-height: 1.15;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -95,7 +136,7 @@ hr {
 }
 
 pre {
-	font-family: monospace, monospace;
+	font-family: 'robotoregular';
 	font-size: 1em;
 }
 
@@ -127,7 +168,7 @@ strong {
 code,
 kbd,
 samp {
-	font-family: monospace, monospace;
+	font-family: 'robotoregular';
 	font-size: 1em;
 }
 
@@ -183,7 +224,7 @@ input,
 optgroup,
 select,
 textarea {
-	font-family: sans-serif;
+	font-family: 'robotoregular';
 	font-size: 100%;
 	line-height: 1.15;
 	margin: 0;
@@ -417,7 +458,7 @@ input,
 select,
 textarea {
 	color: #333;
-	font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+	font-family: 'robotoregular';
 	font-size: 15px;
 	font-size: 0.9375rem;
 	font-weight: 400;
@@ -525,7 +566,7 @@ address {
 
 pre {
 	background: #eee;
-	font-family: "Courier 10 Pitch", Courier, monospace;
+	font-family: 'robotoregular';
 	font-size: 15px;
 	font-size: 0.9375rem;
 	line-height: 1.6;
@@ -539,7 +580,7 @@ code,
 kbd,
 tt,
 var {
-	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	font-family: 'robotoregular';
 	font-size: 15px;
 	font-size: 0.9375rem;
 }
@@ -614,7 +655,7 @@ html[lang="ur"] button,
 html[lang="ur"] input,
 html[lang="ur"] select,
 html[lang="ur"] textarea {
-	font-family: Tahoma, Arial, sans-serif;
+	font-family: 'robotoregular';
 }
 
 html[lang="ar"] h1,
@@ -669,7 +710,7 @@ html[lang^="zh-"] button,
 html[lang^="zh-"] input,
 html[lang^="zh-"] select,
 html[lang^="zh-"] textarea {
-	font-family: "PingFang TC", "Helvetica Neue", Helvetica, STHeitiTC-Light, Arial, sans-serif;
+	font-family: 'robotoregular';
 }
 
 html[lang="zh-CN"] body,
@@ -677,7 +718,7 @@ html[lang="zh-CN"] button,
 html[lang="zh-CN"] input,
 html[lang="zh-CN"] select,
 html[lang="zh-CN"] textarea {
-	font-family: "PingFang SC", "Helvetica Neue", Helvetica, STHeitiSC-Light, Arial, sans-serif;
+	font-family: 'robotoregular';
 }
 
 html[lang^="zh-"] h1,
@@ -706,7 +747,7 @@ html[lang="uk"] button,
 html[lang="uk"] input,
 html[lang="uk"] select,
 html[lang="uk"] textarea {
-	font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
+	font-family: 'robotoregular';
 }
 
 html[lang="bg-BG"] h1,
@@ -748,7 +789,7 @@ html[lang="mr-IN"] button,
 html[lang="mr-IN"] input,
 html[lang="mr-IN"] select,
 html[lang="mr-IN"] textarea {
-	font-family: Arial, sans-serif;
+	font-family: 'robotoregular';
 }
 
 html[lang="bn-BD"] h1,
@@ -779,7 +820,7 @@ html[lang="el"] button,
 html[lang="el"] input,
 html[lang="el"] select,
 html[lang="el"] textarea {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'robotoregular';
 }
 
 html[lang="el"] h1,
@@ -799,7 +840,7 @@ html[lang="gu-IN"] button,
 html[lang="gu-IN"] input,
 html[lang="gu-IN"] select,
 html[lang="gu-IN"] textarea {
-	font-family: Arial, sans-serif;
+	font-family: 'robotoregular';
 }
 
 html[lang="gu-IN"] h1,
@@ -818,7 +859,7 @@ html[lang="he-IL"] button,
 html[lang="he-IL"] input,
 html[lang="he-IL"] select,
 html[lang="he-IL"] textarea {
-	font-family: "Arial Hebrew", Arial, sans-serif;
+	font-family: 'robotoregular';
 }
 
 html[lang="he-IL"] h1,
@@ -837,7 +878,7 @@ html[lang="ja"] button,
 html[lang="ja"] input,
 html[lang="ja"] select,
 html[lang="ja"] textarea {
-	font-family: "Hiragino Kaku Gothic Pro", Meiryo, sans-serif;
+	font-family: 'robotoregular';
 }
 
 html[lang="ja"] h1,
@@ -856,7 +897,7 @@ html[lang="ko-KR"] button,
 html[lang="ko-KR"] input,
 html[lang="ko-KR"] select,
 html[lang="ko-KR"] textarea {
-	font-family: "Apple SD Gothic Neo", "Malgun Gothic", "Nanum Gothic", Dotum, sans-serif;
+	font-family: 'robotoregular';
 }
 
 html[lang="ko-KR"] h1,
@@ -877,7 +918,7 @@ html[lang="th"] h4,
 html[lang="th"] h5,
 html[lang="th"] h6 {
 	line-height: 1.65;
-	font-family: "Sukhumvit Set", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'robotoregular';
 }
 
 html[lang="th"] body,
@@ -886,7 +927,7 @@ html[lang="th"] input,
 html[lang="th"] select,
 html[lang="th"] textarea {
 	line-height: 1.8;
-	font-family: "Sukhumvit Set", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'robotoregular';
 }
 
 /* Remove letter-spacing for all non-latin alphabets */
@@ -946,7 +987,7 @@ textarea {
 	color: #666;
 	background: #fff;
 	background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
-	border: 1px solid #bbb;
+	border: 1px solid #e4e4e4;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
 	display: block;
@@ -1035,7 +1076,7 @@ input[type="button"]:hover,
 input[type="button"]:focus,
 input[type="submit"]:hover,
 input[type="submit"]:focus {
-	background: #767676;
+	background: #15adfc;
 }
 
 button.secondary:hover,
@@ -1054,24 +1095,24 @@ input[type="submit"].secondary:focus {
 /* Placeholder text color -- selectors need to be separate to work. */
 ::-webkit-input-placeholder {
 	color: #333;
-	font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+	font-family: 'robotoregular';
 }
 
 :-moz-placeholder {
 	color: #333;
-	font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+	font-family: 'robotoregular';
 }
 
 ::-moz-placeholder {
 	color: #333;
-	font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+	font-family: 'robotoregular';
 	opacity: 1;
 	/* Since FF19 lowers the opacity of the placeholder by default */
 }
 
 :-ms-input-placeholder {
 	color: #333;
-	font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+	font-family: 'robotoregular';
 }
 
 /*--------------------------------------------------------------
@@ -1183,8 +1224,6 @@ a:active {
 .site-footer .widget-area a,
 .posts-navigation a,
 .widget_authors a strong {
-	-webkit-box-shadow: inset 0 -1px 0 rgba(15, 15, 15, 1);
-	box-shadow: inset 0 -1px 0 rgba(15, 15, 15, 1);
 	-webkit-transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
 	transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
 	transition: color 80ms ease-in, box-shadow 130ms ease-in-out;
@@ -1213,8 +1252,6 @@ a .nav-title,
 .widget ul li a,
 .site-footer .widget-area ul li a,
 .site-footer .widget-area ul li a {
-	-webkit-box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 1);
-	box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 1);
 	text-decoration: none;
 	-webkit-transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
 	transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
@@ -1272,9 +1309,7 @@ a:hover .nav-title,
 .widget .widget-title a:hover,
 .widget ul li a:focus,
 .widget ul li a:hover {
-	color: #000;
-	-webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, 0), 0 3px 0 rgba(0, 0, 0, 1);
-	box-shadow: inset 0 0 0 rgba(0, 0, 0, 0), 0 3px 0 rgba(0, 0, 0, 1);
+	color: #15adfc;
 }
 
 /* Fixes linked images */
@@ -1318,6 +1353,7 @@ a:hover .nav-title,
 	font-size: 16px;
 	font-size: 1rem;
 	position: relative;
+	text-transform: uppercase;
 }
 
 .navigation-top .wrap {
@@ -1334,7 +1370,7 @@ a:hover .nav-title,
 
 .navigation-top .current-menu-item > a,
 .navigation-top .current_page_item > a {
-	color: #767676;
+	background:#15adfc;
 }
 
 .main-navigation {
@@ -1403,7 +1439,7 @@ a:hover .nav-title,
 }
 
 .main-navigation a:hover {
-	color: #767676;
+	background:#15adfc;
 }
 
 /* Menu toggle */
@@ -1549,7 +1585,9 @@ body {
 #masthead .wrap {
 	position: relative;
 }
-
+#masthead .site-navigation-fixed .wrap {
+    box-shadow: 0 -4px 9px 1px #f1f1f1;
+}
 .site-header {
 	position: relative;
 }
@@ -2073,7 +2111,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 /* More tag */
 
 .entry-content .more-link:before {
-	content: "";
+	/* content: ""; */
 	display: block;
 	margin-top: 1.5em;
 }
@@ -2303,8 +2341,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
 }
 
 .site-footer .wrap {
-	padding-bottom: 1.5em;
-	padding-top: 2em;
+    padding-bottom: 0;
+    padding-top: 10px;
 }
 
 /* Footer widgets */
@@ -2365,7 +2403,10 @@ body:not(.twentyseventeen-front-page) .entry-header {
 }
 
 .site-info a {
-	color: #666;
+	color:#15adfc;
+}
+.site-info a:hover {
+	text-decoration:underline;
 }
 
 .site-info .sep {
@@ -2528,7 +2569,6 @@ h2.widget-title {
 	font-size: 13px;
 	font-size: 0.8125rem;
 	font-weight: 800;
-	letter-spacing: 0.1818em;
 	margin-bottom: 1.5em;
 	text-transform: uppercase;
 }
@@ -2553,11 +2593,12 @@ h2.widget-title {
 
 .widget ul li,
 .widget ol li {
-	border-bottom: 1px solid #ddd;
-	border-top: 1px solid #ddd;
 	padding: 0.5em 0;
 }
-
+.wrap .widget ul li, 
+.wrap .widget ol li {
+    padding: 0 0 5px;
+}
 .widget:not(.widget_tag_cloud) ul li + li {
 	margin-top: -1px;
 }
@@ -2787,10 +2828,12 @@ h2.widget-title {
 .widget.widget_tag_cloud a:focus,
 .wp_widget_tag_cloud a:hover,
 .wp_widget_tag_cloud a:focus {
-	border-color: #bbb;
+	border-color: #15adfc;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	text-decoration: none;
+	background:#15adfc;
+	color:#fff;
 }
 
 /* Calendar widget */
@@ -3039,7 +3082,7 @@ p > object:only-child {
 	display: inline-block;
 	text-align: left;
 	vertical-align: top;
-	margin: 0 0 1.5em;
+	margin: 0 0 0;
 	padding: 0 1em 0 0;
 	width: 50%;
 }
@@ -3209,7 +3252,153 @@ div#page {
     margin: 0 auto;
     box-shadow: 0 0 9px 1px #f1f1f1;
 }
-
+.head_top li {
+    display: inline-block;
+}
+.head_top .top_menu {
+    display: inline-block;
+    float: left;
+}
+.head_top .social-block {
+    display: inline-block;
+    float: right;
+}
+.head_top section {
+    padding-bottom: 0;
+}
+.head_top {
+    background: #f2f2f2;
+    height: 32px;
+    padding: 0 30px;
+}
+.head_top .widget ul li {
+    padding: 0;
+}
+.head_top .widget ul li a {
+    padding: 0 5px;
+    line-height: 32px;
+    font-size: 12px;
+    color: #000;
+}
+.head_top .widget ul li a:hover {
+	color: #15adfc;
+}
+.head_top .social-block .widget ul li a {
+    display: block;
+    height: 30px;
+    overflow: hidden;
+    text-align: center;
+	max-width: 24px;
+}
+.social-block a:before {
+    display: inline-block;
+    font-family: fontawesome;
+    font-style: normal;
+    font-weight: 400;
+	font-size: 14px;
+}
+.social-block .facebook a:before {
+    content: "\f09a";
+}
+.social-block .twitter a:before {
+    content: "\f099";
+}
+.social-block .google-plus a:before {
+    content: "\f0d5";
+}
+.social-block .instagram a:before {
+    content: "\f16d";
+}
+footer .social-block {
+    padding-bottom: 0;
+    float: right;
+	margin-top: 5px;
+}
+footer .social-block.widget ul li {
+    display: inline-block;
+    padding-bottom: 0;
+}
+footer .social-block li a {
+    display: block;
+    height: 30px;
+    padding-bottom: 0px;
+    max-width: 30px;
+    background: black;
+    border-radius: 20px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    overflow: hidden;
+}
+footer .social-block a:before {
+    font-size: 15px;
+    display: block;
+    line-height: 30px;
+}
+footer .social-block li a:hover {
+    color: #fff;
+    background: #15adfc;
+}
+footer .bottom-footer-links {
+    display: inline-block;
+    padding-bottom: 0;
+	float: left;
+	margin-top: 5px;
+}
+.ul_links ul li {
+    display: inline-block;
+}
+footer .ul_links ul {
+    margin: 0;
+}
+.ul_links ul li:first-child a {
+    border-right: 1px solid #bbbbbb;
+    padding-right: 8px;
+    margin-right: 8px;
+}
+.site-content-contain .wrap .widget {
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+}
+.site-content-contain .widget-title span:before {
+    content: "";
+    background: #f2f2f2;
+    width: 40px;
+    height: 100%;
+    position: absolute;
+    right: -23px;
+    transform: rotate(109deg);
+    -webkit-transform: rotate(109deg);
+    top: 2px;
+    z-index: 1;
+}
+.site-content-contain .widget-title span {
+    background: #000;
+    display: inline-block;
+    padding: 5px 30px 5px 10px;
+    margin: 0px 0;
+    position: relative;
+	letter-spacing: 1px;
+}
+.head_top .top_menu .widget ul li:first-child a {
+    border-right: 1px solid #ccc;
+    padding-right: 12px;
+}
+.blog .site-main > article:last-child {
+    margin-bottom: 0;
+    padding: 0;
+    border: 0;
+}
+.entry-content a.more-link {
+    background: #000;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 10px;
+    display: inline-block;
+}
+.entry-content a.more-link:hover{
+	background: #15adfc;
+}
 
 /*--------------------------------------------------------------
 19.0 Media Queries
@@ -3288,7 +3477,7 @@ div#page {
 	/* Site Branding */
 
 	.site-branding {
-		padding: 3em 0;
+		padding: 1em 0;
 	}
 
 	/* Front Page */
@@ -3376,8 +3565,8 @@ div#page {
 
 	.wrap {
 		max-width: 1200px;
-		padding-left: 15px;
-		padding-right: 15px;
+		padding-left: 30px;
+		padding-right: 30px;
 	}
 
 	.has-sidebar:not(.error404) #primary {
@@ -3495,7 +3684,7 @@ div#page {
 
 	.site-navigation-fixed.navigation-top {
 		bottom: auto;
-		position: fixed;
+		/* position: fixed; */
 		left: 0;
 		right: 0;
 		top: 0;
@@ -3536,8 +3725,9 @@ div#page {
 	}
 
 	.main-navigation li {
-		border: 0;
+		border-right: 1px solid #253740;
 		display: inline-block;
+		border-bottom: 0;
 	}
 
 	.main-navigation li li {
@@ -3546,11 +3736,21 @@ div#page {
 
 	.main-navigation a {
 		padding: 1em 1.25em;
+		margin: 0;
+	}
+	.main-navigation .home_menu a:before {
+		content: "\f015";
+		display: inline-block;
+		font-family: fontawesome;
+		font-style: normal;
+		font-weight: 400;
+		margin-right: 10px;
+		font-size: 15px;
+		height: 20px;
 	}
 
 	.main-navigation ul ul {
-		background: #fff;
-		border: 1px solid #bbb;
+		background: #000;
 		left: -999em;
 		padding: 0;
 		position: absolute;
@@ -3558,7 +3758,7 @@ div#page {
 		z-index: 99999;
 	}
 
-	.main-navigation ul li.menu-item-has-children:before,
+	/* .main-navigation ul li.menu-item-has-children:before,
 	.main-navigation ul li.menu-item-has-children:after,
 	.main-navigation ul li.page_item_has_children:before,
 	.main-navigation ul li.page_item_has_children:after {
@@ -3572,7 +3772,7 @@ div#page {
 		bottom: -1px;
 		width: 0;
 		z-index: 100000;
-	}
+	} */
 
 	.main-navigation ul li.menu-item-has-children.focus:before,
 	.main-navigation ul li.menu-item-has-children:hover:before,
@@ -3585,11 +3785,11 @@ div#page {
 		display: block;
 	}
 
-	.main-navigation ul li.menu-item-has-children:before,
+	/* .main-navigation ul li.menu-item-has-children:before,
 	.main-navigation ul li.page_item_has_children:before {
 		border-color: transparent transparent #bbb;
 		bottom: 0;
-	}
+	} */
 
 	.main-navigation ul li.menu-item-has-children:after,
 	.main-navigation ul li.page_item_has_children:after {
@@ -3636,7 +3836,7 @@ div#page {
 
 	.main-navigation ul li:hover > ul,
 	.main-navigation ul li.focus > ul {
-		left: 0.5em;
+		left: -5px;
 		right: auto;
 	}
 
@@ -3863,10 +4063,12 @@ div#page {
 		width: 100%;
 	}
 
-	.blog .site-main > article,
-	.archive .site-main > article,
+	.blog .site-main > article, 
+	.archive .site-main > article, 
 	.search .site-main > article {
-		padding-bottom: 4em;
+		padding-bottom: 30px;
+		border-bottom: 1px solid #eaeaea;
+		margin-bottom: 50px;
 	}
 
 	.navigation.pagination {
@@ -4020,19 +4222,25 @@ div#page {
 
 	/* Widgets */
 
-	h2.widget-title {
-		font-size: 11px;
-		font-size: 0.6875rem;
-		margin-bottom: 2em;
-	}
+h2.widget-title {
+    font-size: 13px;
+    margin-bottom: 20px;
+    background: #f2f2f2;
+    padding: 0;
+    position: relative;
+    color: #fff;
+    overflow: hidden;
+}
 
 	/* Footer */
 
 	.site-footer {
+		background: #f2f2f2;
 		font-size: 14px;
 		font-size: 0.875rem;
 		line-height: 1.6;
 		margin-top: 3em;
+		text-align: center;
 	}
 
 	.site-footer .widget-column.footer-widget-1 {
@@ -4053,9 +4261,8 @@ div#page {
 	}
 
 	.site-info {
-		float: left;
-		padding: 0.7em 0 0;
-		width: 58%;
+		display: inline-block;
+		margin-top: 10px;
 	}
 
 	.social-navigation + .site-info {
@@ -4099,7 +4306,7 @@ div#page {
 
 	/* Navigation */
 	.navigation-top .wrap {
-		padding: 0 15px;
+		padding: 0 30px;
 	}
 
 	.navigation-top nav {

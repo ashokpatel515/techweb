@@ -49,6 +49,7 @@ get_header(); ?>
 	endif; // The if ( 0 !== twentyseventeen_panel_count() ) ends here. ?>
 
 	</main><!-- #main -->
+	
 </div><!-- #primary -->
 
 <?php get_footer();

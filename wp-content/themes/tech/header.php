@@ -25,7 +25,15 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentyseventeen' ); ?></a>
-
+	<div class="head_top">
+		<div class="top_menu">
+			<?php dynamic_sidebar( 'top-menu' ); ?>
+		</div>
+		<div class="social-block">
+			<?php dynamic_sidebar( 'top-social-media' ); ?>
+		</div>
+		<div class="clear"></div>
+	</div>
 	<header id="masthead" class="site-header" role="banner">
 
 		<?php get_template_part( 'template-parts/header/header', 'image' ); ?>
@@ -47,9 +55,9 @@
 	 * Using get_queried_object_id() here since the $post global may not be set before a call to the_post().
 	 */
 	if ( ( is_single() || ( is_page() && ! twentyseventeen_is_frontpage() ) ) && has_post_thumbnail( get_queried_object_id() ) ) :
-		echo '<div class="single-featured-image-header">';
+		echo '<div class="wrap"><div class="single-featured-image-header">';
 		echo get_the_post_thumbnail( get_queried_object_id(), 'twentyseventeen-featured-image' );
-		echo '</div><!-- .single-featured-image-header -->';
+		echo '</div></div><!-- .single-featured-image-header -->';
 	endif;
 	?>
 
